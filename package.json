@@ -1,0 +1,27 @@
+{
+  "name": "lucene-query-translator",
+  "version": "1.0.0",
+  "description": "This is a hapi plugin, that translates lucene syntax queries from a parameter defined in the URL to waterline adapter by default, but more adapters can be supported by adding the structure to be transalted ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:omarvides/delphos.git"
+  },
+  "keywords": [
+    "Lucene",
+    "Hapi",
+    "Query"
+  ],
+  "author": "Omar Vides",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omarvides/delphos/issues"
+  },
+  "homepage": "https://github.com/omarvides/delphos",
+  "dependencies": {
+    "lucene-query-parser": "^1.0.1"
+  }
+}
